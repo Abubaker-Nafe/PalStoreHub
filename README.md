@@ -20,8 +20,8 @@ If you want to learn more about creating good readme files then refer the follow
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
 
 # Owners
-Aodeh
-Eddy Zayed
-Awad Sholi
-Nafe Abubaker
-Manar Dawod
+- Aodeh
+- Eddy Zayed
+- Awad Sholi
+- Nafe Abubaker
+- Manar Dawod
