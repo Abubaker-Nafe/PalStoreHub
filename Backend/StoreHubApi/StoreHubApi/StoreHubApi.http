@@ -1,0 +1,6 @@
+@Palestine_Store_Hub_HostAddress = http://localhost:5057
+
+GET {{Palestine_Store_Hub_HostAddress}}/api/stores/
+Accept: application/json
+
+###

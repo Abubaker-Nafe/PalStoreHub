@@ -1,0 +1,8 @@
+Ignore any bin directory
+**/bin/
+
+Ignore .vs directory
+.vs/
+
+Ignore any obj directory
+**/obj/
