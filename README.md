@@ -1,26 +1,59 @@
-# Introduction 
-TODO: Give a short introduction to your project. Let this section explain the objectives or the motivation behind this project. 
+<!-- ────────────────────────────────────────────────────────────────────────── -->
+<h1 align="center">PalStoreHub 🛍️🇵🇸</h1>
+<p align="center">
+A full‑stack marketplace that helps Palestinian shop‑owners list products online
+and lets customers browse and buy from anywhere.
+<br/>
+<sub>Frontend ▶︎ React + TypeScript · Backend ▶︎ ASP.NET Core Web API · Data ▶︎ MongoDB</sub>
+</p>
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their system. In this section, you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+![backend build](https://github.com/Abubaker-Nafe/PalStoreHub/actions/workflows/backend-build.yml/badge.svg)
+![frontend build](https://github.com/Abubaker-Nafe/PalStoreHub/actions/workflows/frontend-build.yml/badge.svg)
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+---
 
-# Contribute
-TODO: Explain how other users and developers can contribute to making your code better. 
+## Project Tour
+PalStoreHub
+├── Backend/
+│ └── StoreHubApi
+│ ├── Controllers/ # Product, Store & User endpoints
+│ ├── Models/ # C# records (Product, Store, User…)
+│ └── Services/ # Mongo‑backed data providers
+├── Frontend/Palestine-Store-Hub/
+│ └── src/ # React components, hooks, routes
+└── pipelines/ # GitHub Actions workflows
 
-If you want to learn more about creating good readme files then refer to the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+:contentReference[oaicite:0]{index=0}
 
-# Owners
-- Eddy Zayed
-- Awad Sholi
-- Nafe Abubaker
-- Manar Dawod
+---
+
+## Key Features
+| Domain            | What you get |
+| ----------------- | ------------ |
+| **Store hub**     | CRUD for stores & products, geo‑coordinates for map discovery |
+| **User accounts** | Secure register / login with JWT, protected React routes |
+| **Search & filter** | Client‑side filtering by category, price and distance |
+| **Responsive UI** | Mobile‑first design built with Vite + React 18 |
+| **Self‑contained API** | ASP.NET Core 8 Web API backed by MongoDB |
+
+---
+
+## Tech Stack
+| Layer    | Technology |
+|----------|------------|
+| Frontend | React 18 · TypeScript · Vite |
+| Backend  | ASP.NET Core 8 Web API · .NET 8 |
+| Database | MongoDB 7 |
+| DevOps   | GitHub Actions · Docker (build steps in `/pipelines`) |
+
+> **Language mix:** ~65 % TypeScript, ~33 % C#, remainder HTML/other. :contentReference[oaicite:1]{index=1}
+
+---
+
+## Authors
+- **Eddy Zayed**
+- **Awad Sholi**
+- **Nafe Abubaker**
+- **Manar Dawod**
+
+
