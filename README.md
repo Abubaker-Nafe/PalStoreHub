@@ -2,28 +2,24 @@
 <h1 align="center">PalStoreHub 🛍️🇵🇸</h1>
 <p align="center">
 A full‑stack marketplace that helps Palestinian shop‑owners list products online
-and lets customers browse and buy from anywhere.
-<br/>
+and lets customers browse and buy from anywhere.<br/>
 <sub>Frontend ▶︎ React + TypeScript · Backend ▶︎ ASP.NET Core Web API · Data ▶︎ MongoDB</sub>
 </p>
 
-![backend build](https://github.com/Abubaker-Nafe/PalStoreHub/actions/workflows/backend-build.yml/badge.svg)
-![frontend build](https://github.com/Abubaker-Nafe/PalStoreHub/actions/workflows/frontend-build.yml/badge.svg)
-
 ---
 
-## Project Tour
+## Project Tour
+```text
 PalStoreHub
 ├── Backend/
-│ └── StoreHubApi
-│ ├── Controllers/ # Product, Store & User endpoints
-│ ├── Models/ # C# records (Product, Store, User…)
-│ └── Services/ # Mongo‑backed data providers
+│   └── StoreHubApi
+│       ├── Controllers/    # Product, Store & User endpoints
+│       ├── Models/         # C# records (Product, Store, User…)
+│       └── Services/       # Mongo‑backed data providers
 ├── Frontend/Palestine-Store-Hub/
-│ └── src/ # React components, hooks, routes
-└── pipelines/ # GitHub Actions workflows
-
-:contentReference[oaicite:0]{index=0}
+│   └── src/                # React components, hooks, routes
+└── pipelines/              # GitHub Actions workflows
+```
 
 ---
 
@@ -44,9 +40,7 @@ PalStoreHub
 | Frontend | React 18 · TypeScript · Vite |
 | Backend  | ASP.NET Core 8 Web API · .NET 8 |
 | Database | MongoDB 7 |
-| DevOps   | GitHub Actions · Docker (build steps in `/pipelines`) |
-
-> **Language mix:** ~65 % TypeScript, ~33 % C#, remainder HTML/other. :contentReference[oaicite:1]{index=1}
+| DevOps   | GitHub Actions · Docker |
 
 ---
 
@@ -55,5 +49,3 @@ PalStoreHub
 - **Awad Sholi**
 - **Nafe Abubaker**
 - **Manar Dawod**
-
-
